@@ -1,178 +1,381 @@
-# BellionChat Overview
+<div align="center">
+  <img src="https://img.shields.io/badge/BellionChat-v1.0-blue?style=for-the-badge" alt="BellionChat" width="220"/>
+  <p><em>The unified hub for AI model interactions</em></p>
+  
+  <!-- TODO: Add logo image here once available -->
+  <!-- <img src="assets/images/logo.png" alt="BellionChat Logo" width="180"/> -->
+  
+  [![GitHub Stars](https://img.shields.io/github/stars/wari-sul/bellionChat?style=flat)](https://github.com/wari-sul/bellionChat/stargazers)
+  [![GitHub Issues](https://img.shields.io/github/issues/wari-sul/bellionChat)](https://github.com/wari-sul/bellionChat/issues)
+  [![GitHub License](https://img.shields.io/github/license/wari-sul/bellionChat)](https://github.com/wari-sul/bellionChat/blob/main/LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/wari-sul/bellionChat/pulls)
+</div>
+
+<div align="right"><em>Last updated: 2025-04-14 09:08:16 UTC by wari-sul</em></div>
+
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-key-features">Features</a> •
+  <a href="#-special-commands">Commands</a> •
+  <a href="#-configuration-options">Config</a> •
+  <a href="#-future-works">Roadmap</a>
+</p>
+
+## 🌟 Overview
+
 BellionChat is a web-based chat platform designed to simplify interactions with multiple AI model providers. It serves as a centralized hub for engaging with and exploring a diverse range of large language models (LLMs).
 
-## Supported AI Model Providers
-Below is a list of supported LLMs integrated into BellionChat, along with details on API access for each provider. Be sure to review the terms and conditions of each provider before starting.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><strong>🤖 Multi-model support</strong></td>
+      <td align="center"><strong>🔒 Privacy-focused</strong></td>
+      <td align="center"><strong>⚡ Zero-install</strong></td>
+    </tr>
+    <tr>
+      <td>Access 13+ AI providers in one place</td>
+      <td>Local API key storage, direct connections</td>
+      <td>Browser-based solution requiring no setup</td>
+    </tr>
+  </table>
+</div>
 
-| Provider            | Description                                                | Link to API Key                                                                 | Notes                                               |
-|---------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------|
-| 🌍 OpenAI          | Includes GPTs and more                                    | [Get Key](https://platform.openai.com/api-keys)                                | 💳 Paid                                             |
-| ✨ Google Gemini   | Gemini models                                             | [Get Key](https://aistudio.google.com/app/apikey)                              | ✅ Free tier available                              |
-| 🟨 Anthropic       | Claude models                                             | [Get Key](https://console.anthropic.com/settings/keys)                         | 💳 Paid                                             |
-| 🌊 DeepSeek        | Competing with OpenAI’s leading models                    | [Get Key](https://platform.deepseek.com/api_keys)                              | ℹ️ Check website for pricing                       |
-| 🐴 Ollama          | Open-source solution for running LLMs locally             | Not applicable (local setup)                                                  | 🛠️ Create your own AI universe!                    |
-| 🎯 Cohere          | Command models                                            | [Get Key](https://dashboard.cohere.com/api-keys)                               | ✅ Free tier available                              |
-| 🛫 Groq Inc.       | Built for rapid inference with open-source models         | [Get Key](https://console.groq.com/keys)                                       | ✅ Free tier available                            |
-| ⚡ Cerebras         | Focused on high-speed inference                           | [Get Key](https://cloud.cerebras.ai/platform/)                                 | ✅ Free tier available                            |
-| 💠 SambaNova       | Optimized for quick processing                            | [Get Key](https://cloud.sambanova.ai/apis)                                     | ✅ Free tier available                              |
-| 🔄 OpenRouter      | Access point to all LLMs                                  | [Get Key](https://openrouter.ai/)                                             | ℹ️ Check website for pricing                       |
-| 🌤️ Together AI    | The Cloud for AI Acceleration                             | [Get Key](https://api.together.ai/settings/api-keys)                           | ✅ Free for specific models                         |
-| 📶 Deep Infra      | Robust AI infrastructure for scalability                  | [Get Key](https://deepinfra.com/)                                             | ℹ️ Check website for pricing                       |
-| 🔥 Hyperbolic      | The Open Access AI Cloud                                  | [Get Key](https://app.hyperbolic.xyz/settings#api-key)                         | ℹ️ Check website for pricing                       |
+## 🚀 Quick Start
 
+### Option 1: Direct Use
+Simply open the hosted version at [bellionChat.app](https://github.com/wari-sul/bellionChat)
 
+### Option 2: Local Installation
+```bash
+# Clone the repository
+git clone https://github.com/wari-sul/bellionChat.git
 
+# Navigate to the project directory
+cd bellionChat
 
-## Screenshot
-- **Light theme:**
+# Open index.html in your browser
+# For macOS:
+open index.html
+# For Windows:
+start index.html
+# For Linux:
+xdg-open index.html
+```
 
-*(TODO: Add Light Theme Screenshot)*
+## 🌈 Key Features
 
-**Dark Theme:** 
+<div align="center">
+  <img src="https://via.placeholder.com/800x450.png?text=BellionChat+Interface+Preview" alt="BellionChat Interface Preview" width="80%" />
+  <p><em>BellionChat interface preview (placeholder)</em></p>
+</div>
 
-*(TODO: Add Dark Theme Screenshot)*
-
-
-With BellionChat, you can easily navigate and assess the strengths and limitations of different AI models through an intuitive,
-user-friendly interface.
-
-## Key Features
-
+### Core Features
 - 🖱️ Browser-Based - No installation needed ⚡
-- ✅ Code Execution (Run code with Google Gemini)
-- 🗨️ TTS - Realistic text-to-speech powered by ElevenLabs
-- 🎧 STT - Speech-to-Text functionality with Groq/Whisper
-- 🔄 Seamless integration with a variety of AI models
-- 💫 Modern and intuitive web interface 🌎
-- 🎨 Syntax highlighting for code blocks 🖌️
-- 📤 One-click download for AI-generated code outputs
-- 🛠️ Customizable system prompts for tailored responses 🔧
-- 🌏 Special command for quick and easy language translation
-- 📎 Upload various file types (text, PDF, images, video) to Google Gemini for analysis and processing
-- 🧩 Awesome Prompts - Over 150 fantastic prompts, many sourced from [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts), selectable with just one click.
+- 💫 Modern and intuitive web interface with light/dark themes 🌓
+- 🔄 Seamless integration with multiple AI model providers
+- 🧩 150+ Awesome Prompts - Sourced from Awesome ChatGPT Prompts
 
+### Advanced Capabilities
+- ✅ Code Execution - Run JavaScript in browser and Python with Google Gemini
+- 🗨️ Text-to-Speech - Realistic voice output powered by ElevenLabs
+- 🎧 Speech-to-Text - Voice input functionality with Groq/Whisper
+- 🎨 Syntax highlighting for code blocks with one-click download
+- 📎 File Upload - Analyze text, PDF, images, and video with Google Gemini
 
+## 🔌 Supported AI Model Providers
 
-## API Key Management
+<details open>
+<summary><strong>View supported providers (click to collapse)</strong></summary>
 
-Your API keys are stored locally using `localStorage`, and requests are sent directly to the official provider's API
-(OpenAI, Anthropic, Google, Groq, Cerebras) without routing through any external proxy.
+<div align="center">
+<table>
+<tr>
+<th align="center">Provider</th>
+<th align="center">Description</th>
+<th align="center">API Access</th>
+<th align="center">Pricing</th>
+</tr>
+<tr>
+<td align="center">🌍 OpenAI</td>
+<td>Includes GPT-4o, GPT-4 Turbo, and more</td>
+<td align="center"><a href="https://platform.openai.com/api-keys">Get Key</a></td>
+<td align="center">💳 Paid</td>
+</tr>
+<tr>
+<td align="center">✨ Google Gemini</td>
+<td>Gemini Pro, Gemini Flash, and Ultra models</td>
+<td align="center"><a href="https://aistudio.google.com/app/apikey">Get Key</a></td>
+<td align="center">✅ Free tier</td>
+</tr>
+<tr>
+<td align="center">🟨 Anthropic</td>
+<td>Claude 3 family (Haiku, Sonnet, Opus)</td>
+<td align="center"><a href="https://console.anthropic.com/settings/keys">Get Key</a></td>
+<td align="center">💳 Paid</td>
+</tr>
+<tr>
+<td align="center">🛫 Groq Inc.</td>
+<td>Built for rapid inference with open-source models</td>
+<td align="center"><a href="https://console.groq.com/keys">Get Key</a></td>
+<td align="center">✅ Free tier</td>
+</tr>
+<tr>
+<td align="center">⚡ Cerebras</td>
+<td>Focused on high-speed inference</td>
+<td align="center"><a href="https://cloud.cerebras.ai/platform/">Get Key</a></td>
+<td align="center">✅ Free tier</td>
+</tr>
+<tr>
+<td align="center">🐴 Ollama</td>
+<td>Open-source solution for running LLMs locally</td>
+<td align="center">Not applicable (local setup)</td>
+<td align="center">🛠️ Self-hosted</td>
+</tr>
+<tr>
+<td colspan="4" align="center"><a href="#-supported-ai-model-providers">Click to view all 13 providers</a></td>
+</tr>
+</table>
+</div>
+</details>
 
-# Special Commands
-Quickly perform actions using these special commands for enhanced functionality.
+## 🔐 Security & Privacy
 
-## Core Features
-| Feature                          | Command Example                                      | Description                                                                 |
-|----------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|
-| **Grounding with Google Search** | `g: What's the main news today?`                   | Enhances response accuracy and recency using Gemini API's internal RAG. Works with any Gemini 2.0 model (Flash or Pro). |
-| **Deep Thinking (Claude 3.7 Sonnet)** | `dt: Explain quantum entanglement`            | Switch between standard and extended thinking modes with Claude 3.7 Sonnet. |
-| **Translation**                  | `t:spanish Hello everyone!`                       | Easily translate text by specifying the target language. AI auto-detects the source language. Alternative: `translate:spanish`. |
-| **YouTube Summary**              | `Summarize this video https://www.youtube.com/watch?v=r7pEdhnS3tI` | Summarize or ask questions about YouTube videos based on captions. Use larger context models like Google Gemini for best results. |
-| **Retrieval-Augmented Generation (RAG)** | `s: What is the latest news?`              | Perform quick Google searches to retrieve relevant information. Alternative: `search:`. |
+Your API keys are stored locally using localStorage, and requests are sent directly to the official provider's API without routing through any external proxy.
 
-## Code Execution
-| Feature                          | Command Example                                      | Description                                                                 |
-|----------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|
-| **JavaScript in Browser**        | `js: How many R's in 'Strawberry'?`               | Execute AI-generated JavaScript code in your browser. Use with caution and review code before running. Alternative: `javascript:`. |
-| **Python in Remote Environment** | `py: Run a python code to write "tseb eht sI noirO" in inverse order` | Execute Python code in Google's remote environment (only with Google Gemini). Returns code and output. |
+<div align="center">
+<table>
+<tr>
+<td align="center"><b>🔒 Local storage only</b></td>
+<td align="center"><b>🔄 Direct API connections</b></td>
+<td align="center"><b>🛡️ No server-side tracking</b></td>
+</tr>
+</table>
+</div>
 
-## Keyboard Shortcuts
-| Action                           | Shortcut                                            | Description                                                                 |
-|----------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|
-| **Close Current Chat**           | `Ctrl + Q`                                         | Close the active chat and start a new one.                                  |
-| **Toggle Theme**                 | `Shift + T`                                        | Switch between dark and light theme modes.                                  |
+## 💬 Special Commands
 
+<details>
+<summary><strong>Core Feature Commands</strong> (click to expand)</summary>
 
-# Google CSE API Key
-*This will be useful when you are not using Google's Gemini models, as the ``g:`` command will not work.
+| Command | Example | Description |
+|---------|---------|-------------|
+| Google Search | `g: latest AI news` | Use Gemini's built-in search for fresh information |
+| Deep Thinking | `dt: quantum physics` | Engage Claude 3.7 Sonnet's extended thinking mode |
+| Translation | `t:spanish Hello world` | Translate text to specified language |
+| YouTube Analysis | `Summarize youtube.com/watch?v=...` | Get summaries or answer questions about videos |
+| Web Search (RAG) | `s: climate change facts` | Retrieve information via Google search API |
 
-Sometimes you might want AI to search the web and respond based on that information.
+</details>
 
+<details>
+<summary><strong>Code Execution Commands</strong> (click to expand)</summary>
 
-To allow AI to search using Google, you will need Google CSE (Custom Search Engine) API Key and CX.
-- First, create a custom search here [Google CSE Panel](https://programmablesearchengine.google.com/controlpanel/all)
-- Copy your CX ID
-# Setup and Configuration for BellionChat
-Follow these concise instructions to set up and run BellionChat with additional features.
+| Command | Example | Description |
+|---------|---------|-------------|
+| Browser JavaScript | `js: calculate prime numbers` | Run JavaScript code directly in browser |
+| Remote Python | `py: analyze this dataset` | Execute Python via Google Gemini's environment |
 
-## How to Run
-1. **Download the Repository**:
-   - Clone using the terminal:
-     ```bash
-     git clone https://github.com/wari-sul/BellionChat.git
-     ```
-   - Or download the ZIP file from the repository by clicking the green "Code" button and selecting [Download ZIP].
-2. **Run the Application**:
-   - Open the folder and click `index.html` if you don’t have a server.
-   - If using a server, access the directory where the project is saved.
+</details>
 
-## Google CSE API Key (For Web Search)
-*Useful when not using Google Gemini models, as the `g:` command won't work.*
+## 🛠️ Configuration Options
 
-To enable AI web search with Google:
-1. Create a custom search at [Google CSE Panel](https://programmablesearchengine.google.com/controlpanel/all) and copy your CX ID.
-2. Get your API Key at [Google Developers](https://developers.google.com/custom-search/v1/introduction) by clicking *Get a Key*.
-3. Configure in BellionChat: Go to `Options` -> `More Options`, and enter your CX ID and API Key.
-4. Use the feature by starting prompts with `s:`, e.g., `s: What's today's news?`
-   - *Note*: Results may be snippets with limited context. Consider the RAG Endpoint solution below for better results.
+BellionChat offers several configuration options to enhance functionality:
 
-## RAG Endpoint (Enhanced Search Results)
-For improved search functionality:
-1. Set up a compatible RAG endpoint (instructions pending - TODO).
-2. Configure in BellionChat: Go to `Options` -> `Advanced`, enter the RAG endpoint URL, and click `Activate`.
-3. Use by starting prompts with `s:`, e.g., `s: What's the news today?` AI will search and respond based on web data.
+<div align="center">
+<table>
+<tr>
+<td align="center" width="33%"><b>🔍 Google CSE Integration</b><br>Enable web search capabilities</td>
+<td align="center" width="33%"><b>📊 RAG Endpoint Setup</b><br>Connect to knowledge retrieval systems</td>
+<td align="center" width="33%"><b>🎬 YouTube Caption Analysis</b><br>Process video content with AI</td>
+</tr>
+</table>
+</div>
 
-## CORS Handling (For SambaNova)
-To bypass CORS errors when using SambaNova:
-- API requests are routed through `cors-proxy.php`, which forwards them to the platform.
-- *Note*: This does not hide your IP; it only forwards the request, as direct browser requests via JavaScript are restricted.
+<details>
+<summary><strong>Detailed Configuration Instructions</strong> (click to expand)</summary>
 
-## YouTube Caption Integration
-To ask about or summarize YouTube video content:
-1. Set up a compatible YouTube subtitle downloading service (instructions pending - TODO).
-   - Can be hosted on localhost or a remote server.
-2. Configure in BellionChat: Go to `Options` -> `YouTube Captions`, and enter the service URL, e.g., `http://localhost/YoutubeSubtitlesDownloader/`.
-3. Share a YouTube URL in the chat to query or summarize video content.
+### Google CSE API Setup
+1. Create a custom search engine at [Google CSE Panel](https://programmablesearchengine.google.com/controlpanel/all)
+2. Get API Key from [Google Developers](https://developers.google.com/custom-search/v1/introduction)
+3. In BellionChat: Options → More Options → Enter your CX ID and API Key
 
----
+### RAG Endpoint Configuration
+1. Set up a compatible RAG endpoint (documentation forthcoming)
+2. In BellionChat: Options → Advanced → Enter the RAG endpoint URL and Activate
+3. Use with `s:` command prefix
 
-# Future Works (BellionAPI Implementation)
-*Last updated: 2025-04-14 07:56:21 UTC by wari-sul*
+### YouTube Caption Integration
+1. Configure a YouTube subtitle downloading service
+2. In BellionChat: Options → YouTube Captions → Enter service URL
+3. Share YouTube links directly in chat for analysis
 
-Below is a structured overview of the planned enhancements for BellionChat, including the implementation of a backend API for secure, authenticated access to specific LLM models and platform-specific releases.
+</details>
 
-## Platform Releases
-| Platform                | Description                                                                 | Status      |
-|-------------------------|-----------------------------------------------------------------------------|-------------|
-| **Windows Build**       | Package application as a standalone Windows executable (.exe) for users who prefer native desktop experience over web interface. | Planned     |
-| **Linux Build**         | Create Debian package (.deb) for easy installation on Ubuntu and other Debian-based Linux distributions. | Planned     |
-| **Android Build**       | Develop Android application package (.apk) for mobile access to BellionChat on Android devices. | Planned     |
+## 🔮 Future Works (BellionAPI Implementation)
 
-## Backend Development (BellionAPI-Worker Repo)
-| Feature                  | Description                                                                 | Status      |
-|--------------------------|-----------------------------------------------------------------------------|-------------|
-| **Backend Service**      | Develop a new backend using Hono framework on Cloudflare Workers with API endpoints (e.g., `/api/proxy/llm`, `/api/user/profile`). | In Progress |
-| **Authentication (Auth0)** | Configure Auth0 for user login/signup, implement JWT verification middleware, and define an "admin" role for bypassing rate limits. | Planned     |
-| **Database (Supabase)**  | Set up a Supabase project for user data storage and integrate Supabase client/API with the backend. | Planned     |
-| **LLM Proxy**            | Store Groq/OpenRouter API keys securely in Worker secrets, implement request forwarding logic in `/api/proxy/llm`, and handle streaming responses. | Planned     |
-| **Rate Limiting (Cloudflare)** | Configure Cloudflare Rate Limiting rules for API endpoints with bypass logic for admin users. | Planned     |
-| **Secure API Key Storage** | Implement robust mechanisms for securely storing and managing LLM API keys in the backend. | Planned     |
+<div align="right"><em>Last updated: 2025-04-14 08:08:57 UTC by wari-sul</em></div>
 
-## Frontend Development (BellionChat Repo)
-| Feature                  | Description                                                                 | Status      |
-|--------------------------|-----------------------------------------------------------------------------|-------------|
-| **Frontend Integration** | Integrate Auth0 SPA SDK for login/logout UI and token management, update model list to include "BellionAPI" models, and modify chat logic to call backend API for proxy requests. | Planned     |
-| **Frontend Rewrite**     | Refactor using React and twin.macro (Tailwind CSS-in-JS) for better component structure, maintainability, and styling. | In Progress |
+Below is our development roadmap, including platform-specific releases and backend implementation:
 
-## Deployment Strategies
-| Feature                  | Description                                                                 | Status      |
-|--------------------------|-----------------------------------------------------------------------------|-------------|
-| **Cloudflare Deployment**| Deploy backend to Cloudflare Workers and frontend to Cloudflare Pages, configuring all necessary environment variables and secrets. | Planned     |
-| **Vercel Deployment**    | Add configuration and documentation for one-click deployment to Vercel as an alternative or complement to Cloudflare. | Planned     |
-| **Dockerization**        | Create Docker configurations for easier local development and potential alternative deployment strategies for backend/frontend. | Planned     |
+### 📱 Platform Releases
 
-## Additional Enhancements
-| Feature                  | Description                                                                 | Status      |
-|--------------------------|-----------------------------------------------------------------------------|-------------|
-| **Enhanced Database Integration** | Expand Supabase usage beyond authentication to store user preferences, chat history, or other application data. | Planned     |
-| **Expanded Authentication** | Build on Auth0 integration with features like social logins and additional user roles. | Planned     |
+<div align="center">
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Windows-Build-blue?style=for-the-badge&logo=windows" alt="Windows"/><br>
+<em>Native .exe executable</em><br>
+<span>Status: Planned</span>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Linux-Build-orange?style=for-the-badge&logo=linux" alt="Linux"/><br>
+<em>Debian package (.deb)</em><br>
+<span>Status: Planned</span>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/Android-Build-green?style=for-the-badge&logo=android" alt="Android"/><br>
+<em>Android app (.apk)</em><br>
+<span>Status: Planned</span>
+</td>
+</tr>
+</table>
+</div>
+
+<details>
+<summary><strong>View Complete Development Roadmap</strong> (click to expand)</summary>
+
+<div align="center">
+<h3>🖥️ Backend Development (BellionAPI)</h3>
+<p>Building a robust backend infrastructure for enhanced functionality</p>
+
+<table>
+<tr>
+<th width="25%">Feature</th>
+<th width="55%">Description</th>
+<th width="20%">Status</th>
+</tr>
+<tr>
+<td><b>Backend Service</b></td>
+<td>Develop using Hono framework on Cloudflare Workers with API endpoints</td>
+<td>🚧 In Progress</td>
+</tr>
+<tr>
+<td><b>Authentication (Auth0)</b></td>
+<td>Configure Auth0 for user login/signup with JWT verification</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>Database (Supabase)</b></td>
+<td>Set up Supabase project for user data storage</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>LLM Proxy</b></td>
+<td>Secure API key storage and request forwarding</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>Rate Limiting</b></td>
+<td>Cloudflare Rate Limiting rules with admin bypass</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>API Key Security</b></td>
+<td>Robust mechanisms for secure key management</td>
+<td>📝 Planned</td>
+</tr>
+</table>
+
+<h3>🎨 Frontend Development</h3>
+<p>Enhancing the user interface and experience</p>
+
+<table>
+<tr>
+<th width="25%">Feature</th>
+<th width="55%">Description</th>
+<th width="20%">Status</th>
+</tr>
+<tr>
+<td><b>Frontend Integration</b></td>
+<td>Integrate Auth0 SPA SDK and update chat logic</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>React Rewrite</b></td>
+<td>Refactor using React and twin.macro (Tailwind CSS-in-JS)</td>
+<td>🚧 In Progress</td>
+</tr>
+</table>
+
+<h3>🚀 Deployment & Infrastructure</h3>
+<p>Streamlining deployment options and infrastructure</p>
+
+<table>
+<tr>
+<th width="25%">Feature</th>
+<th width="55%">Description</th>
+<th width="20%">Status</th>
+</tr>
+<tr>
+<td><b>Cloudflare Deployment</b></td>
+<td>Deploy backend to Workers and frontend to Pages</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>Vercel Deployment</b></td>
+<td>One-click deployment to Vercel</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>Dockerization</b></td>
+<td>Docker configurations for local development</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>Database Enhancement</b></td>
+<td>Expand Supabase for user preferences and history</td>
+<td>📝 Planned</td>
+</tr>
+<tr>
+<td><b>Auth Expansion</b></td>
+<td>Social logins and additional user roles</td>
+<td>📝 Planned</td>
+</tr>
+</table>
+</div>
+</details>
+
+## 👥 Contributing
+
+Contributions to BellionChat are welcome! Here's how you can help:
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="25%"><b>🐛 Report Bugs</b><br>Open an issue with details</td>
+<td align="center" width="25%"><b>💡 Feature Ideas</b><br>Share your suggestions</td>
+<td align="center" width="25%"><b>📚 Documentation</b><br>Improve explanations</td>
+<td align="center" width="25%"><b>💻 Code</b><br>Submit pull requests</td>
+</tr>
+</table>
+</div>
+
+Please read our contributing guidelines before submitting your contributions.
+
+## 📄 License
+
+BellionChat is available under the MIT License.
+
+<div align="center">
+<p>
+<a href="https://github.com/wari-sul/bellionChat/issues">Report Bug</a> •
+<a href="https://github.com/wari-sul/bellionChat/issues">Request Feature</a> •
+<a href="https://github.com/wari-sul/bellionChat/wiki">Documentation</a>
+</p>
+<p>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=wari-sul.bellionChat" alt="visitors"/>
+<img src="https://img.shields.io/github/last-commit/wari-sul/bellionChat" alt="last commit"/>
+</p>
+<p>Made with ❤️ by <a href="https://github.com/wari-sul">wari-sul</a></p>
+</div>
