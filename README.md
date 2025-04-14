@@ -137,34 +137,42 @@ To ask about or summarize YouTube video content:
 ---
 
 # Future Works (BellionAPI Implementation)
+*Last updated: 2025-04-14 07:56:21 UTC by wari-sul*
 
-Below is a structured overview of the planned enhancements for BellionChat, including the implementation of a backend API for secure, authenticated access to specific LLM models. 
+Below is a structured overview of the planned enhancements for BellionChat, including the implementation of a backend API for secure, authenticated access to specific LLM models and platform-specific releases.
+
+## Platform Releases
+| Platform                | Description                                                                 | Status      |
+|-------------------------|-----------------------------------------------------------------------------|-------------|
+| **Windows Build**       | Package application as a standalone Windows executable (.exe) for users who prefer native desktop experience over web interface. | Planned     |
+| **Linux Build**         | Create Debian package (.deb) for easy installation on Ubuntu and other Debian-based Linux distributions. | Planned     |
+| **Android Build**       | Develop Android application package (.apk) for mobile access to BellionChat on Android devices. | Planned     |
 
 ## Backend Development (BellionAPI-Worker Repo)
-| Feature                  | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| **Backend Service**      | Develop a new backend using Hono framework on Cloudflare Workers with API endpoints (e.g., `/api/proxy/llm`, `/api/user/profile`). |
-| **Authentication (Auth0)** | Configure Auth0 for user login/signup, implement JWT verification middleware, and define an "admin" role for bypassing rate limits. |
-| **Database (Supabase)**  | Set up a Supabase project for user data storage and integrate Supabase client/API with the backend. |
-| **LLM Proxy**            | Store Groq/OpenRouter API keys securely in Worker secrets, implement request forwarding logic in `/api/proxy/llm`, and handle streaming responses. |
-| **Rate Limiting (Cloudflare)** | Configure Cloudflare Rate Limiting rules for API endpoints with bypass logic for admin users. |
-| **Secure API Key Storage** | Implement robust mechanisms for securely storing and managing LLM API keys in the backend. |
+| Feature                  | Description                                                                 | Status      |
+|--------------------------|-----------------------------------------------------------------------------|-------------|
+| **Backend Service**      | Develop a new backend using Hono framework on Cloudflare Workers with API endpoints (e.g., `/api/proxy/llm`, `/api/user/profile`). | In Progress |
+| **Authentication (Auth0)** | Configure Auth0 for user login/signup, implement JWT verification middleware, and define an "admin" role for bypassing rate limits. | Planned     |
+| **Database (Supabase)**  | Set up a Supabase project for user data storage and integrate Supabase client/API with the backend. | Planned     |
+| **LLM Proxy**            | Store Groq/OpenRouter API keys securely in Worker secrets, implement request forwarding logic in `/api/proxy/llm`, and handle streaming responses. | Planned     |
+| **Rate Limiting (Cloudflare)** | Configure Cloudflare Rate Limiting rules for API endpoints with bypass logic for admin users. | Planned     |
+| **Secure API Key Storage** | Implement robust mechanisms for securely storing and managing LLM API keys in the backend. | Planned     |
 
 ## Frontend Development (BellionChat Repo)
-| Feature                  | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| **Frontend Integration** | Integrate Auth0 SPA SDK for login/logout UI and token management, update model list to include "BellionAPI" models, and modify chat logic to call backend API for proxied models when logged in. |
-| **Frontend Rewrite**     | Refactor using React and twin.macro (Tailwind CSS-in-JS) for better component structure, maintainability, and styling. |
+| Feature                  | Description                                                                 | Status      |
+|--------------------------|-----------------------------------------------------------------------------|-------------|
+| **Frontend Integration** | Integrate Auth0 SPA SDK for login/logout UI and token management, update model list to include "BellionAPI" models, and modify chat logic to call backend API for proxy requests. | Planned     |
+| **Frontend Rewrite**     | Refactor using React and twin.macro (Tailwind CSS-in-JS) for better component structure, maintainability, and styling. | In Progress |
 
 ## Deployment Strategies
-| Feature                  | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| **Cloudflare Deployment**| Deploy backend to Cloudflare Workers and frontend to Cloudflare Pages, configuring all necessary environment variables and secrets. |
-| **Vercel Deployment**    | Add configuration and documentation for one-click deployment to Vercel as an alternative or complement to Cloudflare. |
-| **Dockerization**        | Create Docker configurations for easier local development and potential alternative deployment strategies for backend/frontend. |
+| Feature                  | Description                                                                 | Status      |
+|--------------------------|-----------------------------------------------------------------------------|-------------|
+| **Cloudflare Deployment**| Deploy backend to Cloudflare Workers and frontend to Cloudflare Pages, configuring all necessary environment variables and secrets. | Planned     |
+| **Vercel Deployment**    | Add configuration and documentation for one-click deployment to Vercel as an alternative or complement to Cloudflare. | Planned     |
+| **Dockerization**        | Create Docker configurations for easier local development and potential alternative deployment strategies for backend/frontend. | Planned     |
 
 ## Additional Enhancements
-| Feature                  | Description                                                                 |
-|--------------------------|-----------------------------------------------------------------------------|
-| **Enhanced Database Integration** | Expand Supabase usage beyond authentication to store user preferences, chat history, or other application data. |
-| **Expanded Authentication** | Build on Auth0 integration with features like social logins and additional user roles. |
+| Feature                  | Description                                                                 | Status      |
+|--------------------------|-----------------------------------------------------------------------------|-------------|
+| **Enhanced Database Integration** | Expand Supabase usage beyond authentication to store user preferences, chat history, or other application data. | Planned     |
+| **Expanded Authentication** | Build on Auth0 integration with features like social logins and additional user roles. | Planned     |
