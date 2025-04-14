@@ -17,8 +17,8 @@
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-key-features">Features</a> •
   <a href="#-special-commands">Commands</a> •
-  <a href="#configuration-options">Config</a> •
-  <a href="#future-works">Roadmap</a>
+  <a href="#%EF%B8%8F-configuration-options">Config</a> •
+  <a href="#-future-works-bellionapi-implementation">Roadmap</a>
 </p>
 
 ## 🌟 Overview
