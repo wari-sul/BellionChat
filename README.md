@@ -2,8 +2,7 @@
   <img src="https://img.shields.io/badge/BellionChat-v1.0-blue?style=for-the-badge" alt="BellionChat" width="220"/>
   <p><em>The unified hub for AI model interactions</em></p>
   
-  <!-- TODO: Add logo image here once available -->
-  <!-- <img src="assets/images/logo.png" alt="BellionChat Logo" width="180"/> -->
+  <img src="bellionChat/imgs/icons/bellion_icon.png" alt="BellionChat Logo" width="180"/>
   
   [![GitHub Stars](https://img.shields.io/github/stars/wari-sul/bellionChat?style=flat)](https://github.com/wari-sul/bellionChat/stargazers)
   [![GitHub Issues](https://img.shields.io/github/issues/wari-sul/bellionChat)](https://github.com/wari-sul/bellionChat/issues)
@@ -66,8 +65,8 @@ xdg-open index.html
 ## 🌈 Key Features
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=BellionChat+Interface+Preview" alt="BellionChat Interface Preview" width="80%" />
-  <p><em>BellionChat interface preview (placeholder)</em></p>
+  <img src="bellionChat/imgs/bellionChat_darkmode_preview.png" alt="BellionChat Interface Preview" width="80%" />
+  <p><em>BellionChat Dark Mode Interface Preview</em></p>
 </div>
 
 ### Core Features
