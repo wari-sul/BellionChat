@@ -6,7 +6,7 @@
   
   [![GitHub Stars](https://img.shields.io/github/stars/wari-sul/bellionChat?style=flat)](https://github.com/wari-sul/bellionChat/stargazers)
   [![GitHub Issues](https://img.shields.io/github/issues/wari-sul/bellionChat)](https://github.com/wari-sul/bellionChat/issues)
-
+  [![GitHub License](https://img.shields.io/github/license/wari-sul/bellionChat)](https://github.com/wari-sul/bellionChat/blob/main/LICENSE)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/wari-sul/bellionChat/pulls)
 </div>
 
