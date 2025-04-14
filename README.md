@@ -12,8 +12,8 @@ Below is a list of supported LLMs integrated into BellionChat, along with detail
 | 🌊 DeepSeek        | Competing with OpenAI’s leading models                    | [Get Key](https://platform.deepseek.com/api_keys)                              | ℹ️ Check website for pricing                       |
 | 🐴 Ollama          | Open-source solution for running LLMs locally             | Not applicable (local setup)                                                  | 🛠️ Create your own AI universe!                    |
 | 🎯 Cohere          | Command models                                            | [Get Key](https://dashboard.cohere.com/api-keys)                               | ✅ Free tier available                              |
-| 🛫 Groq Inc.       | Built for rapid inference with open-source models         | [Get Key](https://console.groq.com/keys)                                       | ✅ Free tier available ⚡                           |
-| ⚡ Cerebras         | Focused on high-speed inference                           | [Get Key](https://cloud.cerebras.ai/platform/)                                 | ✅ Free tier available 🛫                           |
+| 🛫 Groq Inc.       | Built for rapid inference with open-source models         | [Get Key](https://console.groq.com/keys)                                       | ✅ Free tier available                            |
+| ⚡ Cerebras         | Focused on high-speed inference                           | [Get Key](https://cloud.cerebras.ai/platform/)                                 | ✅ Free tier available                            |
 | 💠 SambaNova       | Optimized for quick processing                            | [Get Key](https://cloud.sambanova.ai/apis)                                     | ✅ Free tier available                              |
 | 🔄 OpenRouter      | Access point to all LLMs                                  | [Get Key](https://openrouter.ai/)                                             | ℹ️ Check website for pricing                       |
 | 🌤️ Together AI    | The Cloud for AI Acceleration                             | [Get Key](https://api.together.ai/settings/api-keys)                           | ✅ Free for specific models                         |
@@ -81,19 +81,6 @@ Quickly perform actions using these special commands for enhanced functionality.
 |----------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------|
 | **Close Current Chat**           | `Ctrl + Q`                                         | Close the active chat and start a new one.                                  |
 | **Toggle Theme**                 | `Shift + T`                                        | Switch between dark and light theme modes.                                  |
-
-# How to Run
-To run BellionChat first download this repository.
-
-You can download it by running the following command in your terminal:
-
-```bash
-git clone https://github.com/wari-sul/BellionChat.git
-```
-Or download the zip file from the repository by clicking on the green button "Code" and then [Download ZIP]
-
-After downloading, just open the folder and click on index.html if you don't have a server.
-If you do, just access the directory where the project was saved. It's that simple.
 
 
 # Google CSE API Key
