@@ -43,7 +43,7 @@ BellionChat is a web-based chat platform designed to simplify interactions with 
 ## 🚀 Quick Start
 
 ### Option 1: Direct Use
-Simply open the hosted version at [bellionChat.app](https://github.com/wari-sul/bellionChat)
+Hosted version coming soon at: `bellionchat.warisul.com` (Currently under development)
 
 ### Option 2: Local Installation
 ```bash
@@ -62,7 +62,7 @@ start index.html
 xdg-open index.html
 ```
 
-## 🌈 Key Features
+## ✨ Key Features
 
 <div align="center">
   <img src="bellionChat/imgs/bellionChat_darkmode_preview.png" alt="BellionChat Interface Preview" width="80%" />
@@ -132,7 +132,46 @@ xdg-open index.html
 <td align="center">🛠️ Self-hosted</td>
 </tr>
 <tr>
-<td colspan="4" align="center"><a href="#-supported-ai-model-providers">Click to view all 13 providers</a></td>
+<td align="center">🌊 DeepSeek</td>
+<td>Competing with OpenAI’s leading models</td>
+<td align="center"><a href="https://platform.deepseek.com/api_keys">Get Key</a></td>
+<td align="center">ℹ️ Check website for pricing</td>
+</tr>
+<tr>
+<td align="center">🎯 Cohere</td>
+<td>Command models</td>
+<td align="center"><a href="https://dashboard.cohere.com/api-keys">Get Key</a></td>
+<td align="center">✅ Free tier available</td>
+</tr>
+<tr>
+<td align="center">💠 SambaNova</td>
+<td>Optimized for quick processing</td>
+<td align="center"><a href="https://cloud.sambanova.ai/apis">Get Key</a></td>
+<td align="center">✅ Free tier available</td>
+</tr>
+<tr>
+<td align="center">🔄 OpenRouter</td>
+<td>Access point to all LLMs</td>
+<td align="center"><a href="https://openrouter.ai/">Get Key</a></td>
+<td align="center">ℹ️ Check website for pricing</td>
+</tr>
+<tr>
+<td align="center">🌤️ Together AI</td>
+<td>The Cloud for AI Acceleration</td>
+<td align="center"><a href="https://api.together.ai/settings/api-keys">Get Key</a></td>
+<td align="center">✅ Free for specific models</td>
+</tr>
+<tr>
+<td align="center">📶 Deep Infra</td>
+<td>Robust AI infrastructure for scalability</td>
+<td align="center"><a href="https://deepinfra.com/">Get Key</a></td>
+<td align="center">ℹ️ Check website for pricing</td>
+</tr>
+<tr>
+<td align="center">🔥 Hyperbolic</td>
+<td>The Open Access AI Cloud</td>
+<td align="center"><a href="https://app.hyperbolic.xyz/settings#api-key">Get Key</a></td>
+<td align="center">ℹ️ Check website for pricing</td>
 </tr>
 </table>
 </div>
