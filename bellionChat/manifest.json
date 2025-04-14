@@ -1,0 +1,14 @@
+{
+  "name": "BellionChat",
+  "short_name": "BellionChat",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "imgs/icons/bellion_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+
+  ]
+}
